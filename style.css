@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-html {
+html, body {
   background-color: #020102;
   color: #fff;
 }

@@ -29,4 +29,11 @@ html {
   to {
     text-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(248, 249, 250, 0.52), 0 0 54px rgba(140, 30, 242, 0.92), 0 0 54px rgba(140, 30, 242, 0.92), 0 0 21px rgba(172, 23, 218, 0.92);
   }
+}
+.self_img {
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  border-radius: 193px;
+  height: 30%;
 }/*# sourceMappingURL=style.css.map */

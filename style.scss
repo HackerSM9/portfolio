@@ -20,3 +20,31 @@ html {
     color: $default;
     font-family: Agustina;
 }
+
+.hr {
+    text-align: center;
+    line-height: 1;
+    color: $color;
+    animation: neon .01s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+    from {
+    text-shadow: 
+    0 0 6px rgba(202,228,225,0.92),
+    0 0 30px rgba(202,228,225,0.34),
+    0 0 12px rgba(248, 249, 250, 0.52),
+    0 0 21px rgba(172, 23, 218, 0.92),
+    0 0 34px rgba(164, 30, 242, 0.78),
+    0 0 54px rgba(140, 30, 242, 0.92);
+    }
+    to {
+        text-shadow:
+    0 0 6px rgba(202,228,225,0.98),
+    0 0 30px rgba(202,228,225,0.42),
+    0 0 12px rgba(248, 249, 250, 0.52),
+    0 0 54px rgba(140, 30, 242, 0.92),
+    0 0 54px rgba(140, 30, 242, 0.92),
+    0 0 21px rgba(172, 23, 218, 0.92);
+      }
+}

@@ -3,9 +3,6 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-}
-
-html, body {
   background-color: #020102;
   color: #fff;
 }
@@ -35,5 +32,5 @@ html, body {
   justify-content: center;
   align-self: center;
   border-radius: 193px;
-  height: 30%;
+  height: 230px;
 }/*# sourceMappingURL=style.css.map */

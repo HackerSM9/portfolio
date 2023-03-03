@@ -8,4 +8,8 @@
 html {
   background-color: #020102;
   color: #fff;
+}
+
+.navbar-brand {
+  color: rgba(105, 19, 175, 0.9098039216);
 }/*# sourceMappingURL=style.css.map */

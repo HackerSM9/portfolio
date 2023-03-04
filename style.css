@@ -1,5 +1,5 @@
 @import "/Fonts/fonts.css";
-* {
+*, .navbar, .container-fluid {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;

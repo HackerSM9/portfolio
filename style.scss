@@ -16,7 +16,7 @@ $color: #fff;
 .brand {
     color: $default;
     font-family: Agustina;
-    animation: neon 0s ease-in-out infinite alternate;
+    animation: neon .09s ease-in-out infinite alternate;
 }
 
 @keyframes neon {

@@ -16,28 +16,15 @@ $color: #fff;
 .brand {
     color: $default;
     font-family: Agustina;
-    animation: neon .09s ease-in-out infinite alternate;
-}
-
-@keyframes neon {
-    from {
-    text-shadow: 
-    0 0 6px rgba(29, 7, 54, 0.068),
-    0 0 30px rgba(202, 228, 225, 0),
-    0 0 12px rgba(248, 249, 250, 0),
-    0 0 21px rgba(172, 23, 218, 0.92),
-    0 0 34px rgba(164, 30, 242, 0.78),
-    0 0 54px rgba(140, 30, 242, 0.92);
-    }
-    to {
-        text-shadow:
-    0 0 6px rgba(29, 7, 54, 0.068),
-    0 0 30px rgba(202, 228, 225, 0),
-    0 0 12px rgba(248, 249, 250, 0),
-    0 0 54px rgba(140, 30, 242, 0.92),
-    0 0 54px rgba(140, 30, 242, 0.92),
-    0 0 21px rgba(172, 23, 218, 0.92);
-      }
+    font-size: 3em;
+    text-shadow: 0 0 10px #fff,
+     0 0 20px #fff,
+     0 0 30px #fff,
+     0 0 40px #6913afe8,
+     0 0 70px #6913afe8,
+     0 0 80px #6913afe8,
+     0 0 100px #6913afe8,
+     0 0 150px #6913afe8;
 }
 
 h2 {

@@ -24,6 +24,19 @@ $color: #fff;
      0 0 30px #6913afe8,;
 }
 
+.nav-link:before {
+    content: "";
+    transform: scaleX(0);
+    background: $sub-default;
+    transform-origin: right;
+    transition: transform .3s ease;
+}
+
+.nav-link:hover:before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
 h2 {
     color: $sub-default;
     text-align: center;

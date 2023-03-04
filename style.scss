@@ -16,12 +16,6 @@ $color: #fff;
 .brand {
     color: $default;
     font-family: Agustina;
-}
-
-.hr {
-    text-align: center;
-    line-height: 1;
-    color: $color;
     animation: neon .01s ease-in-out infinite alternate;
 }
 
@@ -44,6 +38,11 @@ $color: #fff;
     0 0 54px rgba(140, 30, 242, 0.92),
     0 0 21px rgba(172, 23, 218, 0.92);
       }
+}
+
+h2 {
+    color: $sub-default;
+    text-align: center;
 }
 
 .self_img {

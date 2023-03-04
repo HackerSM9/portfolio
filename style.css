@@ -10,12 +10,6 @@
 .brand {
   color: rgba(105, 19, 175, 0.9098039216);
   font-family: Agustina;
-}
-
-.hr {
-  text-align: center;
-  line-height: 1;
-  color: #fff;
   animation: neon 0.01s ease-in-out infinite alternate;
 }
 
@@ -27,6 +21,11 @@
     text-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(248, 249, 250, 0.52), 0 0 54px rgba(140, 30, 242, 0.92), 0 0 54px rgba(140, 30, 242, 0.92), 0 0 21px rgba(172, 23, 218, 0.92);
   }
 }
+h2 {
+  color: #cb80ff;
+  text-align: center;
+}
+
 .self_img {
   text-align: center;
   justify-content: center;

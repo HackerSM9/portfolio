@@ -48,6 +48,10 @@ hr {
 }
 
 .self_img {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 193px;

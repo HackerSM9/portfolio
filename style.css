@@ -43,6 +43,8 @@ hr {
   background: none;
   border-radius: 20px;
   text-align: center;
+  align-items: center;
+  align-content: center;
   background-color: #cb80ff;
   border: 3px solid #cb80ff;
 }

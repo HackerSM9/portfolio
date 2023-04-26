@@ -4,6 +4,7 @@ $bg-color: #020102;
 $default: #6913afe8;
 $sub-default: #cb80ff;
 $color: #fff;
+$de-align: center;
 
 *,.navbar,.container-fluid {
     margin:0px;
@@ -43,7 +44,7 @@ $color: #fff;
 
 h2 {
     color: $sub-default;
-    text-align: center;
+    text-align: $de-align;
 }
 
 hr {
@@ -51,17 +52,17 @@ hr {
   height: 5px;
   background: none;
   border-radius: 20px;
-  text-align: center;
-  align-items: center;
-  align-content: center;
+  text-align: $de-align;
+  align-items: $de-align;
+  align-content: $de-align;
   background-color: $sub-default;
   border: 3px solid $sub-default;
 }
 
 .self_img {
-  text-align: center;
-  align-items: center;
-  align-content: center;
+  text-align: $de-align;
+  align-items: $de-align;
+  align-content: $de-align;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -71,5 +72,5 @@ hr {
 
 .bio {
   color: $color;
-  text-align: center;
+  text-align: $de-align;
 }

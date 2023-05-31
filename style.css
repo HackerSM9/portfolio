@@ -1,10 +1,16 @@
-@import "/Fonts/fonts.css";
+@import "https://hackersm9.github.io/Fonts/fonts.css";
+html, body {
+  margin: 0px;
+  color: #E3BAFF;
+  background-color: #020102;
+}
+
 *, .navbar, .container-fluid {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   background-color: #020102;
-  color: #fff;
+  color: #E3BAFF;
 }
 
 .brand {
@@ -33,18 +39,16 @@
 }
 
 h2 {
+  font-family: Sofia;
   color: #cb80ff;
   text-align: center;
 }
 
 hr {
-  width: 50%;
+  width: 35%;
   height: 5px;
-  background: none;
-  border-radius: 20px;
-  text-align: center;
-  align-items: center;
-  align-content: center;
+  margin: 0 auto;
+  border-radius: 250px;
   background-color: #cb80ff;
   border: 3px solid #cb80ff;
 }
@@ -56,11 +60,11 @@ hr {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 193px;
-  height: 230px;
+  border-radius: 693px;
+  height: 20em;
 }
 
 .bio {
-  color: #fff;
+  color: #E3BAFF;
   text-align: center;
 }/*# sourceMappingURL=style.css.map */

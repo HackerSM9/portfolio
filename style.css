@@ -49,7 +49,6 @@ hr {
   height: 6.6px;
   margin: 0 auto;
   border-radius: 250px;
-  position: absolute;
   background-color: #cb80ff;
   border: 3px solid #cb80ff;
   animation: glowMinor 2s ease-in-out;

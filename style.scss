@@ -80,13 +80,13 @@ hr::before {
 
 @keyframes glow {
   0%{box-shadow: 2 0 2px #dca3ff;}
-  50%{box-shadow: 0 0 9px #efd1ff;}
+  50%{box-shadow: 0 0 14px #efd1ff;}
   100%{box-shadow: 0 2 2px #dca3ff;}
 }
 
 @-webkit-keyframes glow {
   0%{box-shadow: 7 0 8px #dca3ff;}
-  50%{box-shadow: 0 0 7px #efd1ff;}
+  50%{box-shadow: 0 0 9px #efd1ff;}
   100%{box-shadow: 0 7 5px #dca3ff;}
 }
 

@@ -49,6 +49,11 @@ hr {
   height: 5px;
   margin: 0 auto;
   border-radius: 250px;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
   background-color: #cb80ff;
   border: 3px solid #cb80ff;
 }

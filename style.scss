@@ -59,6 +59,11 @@ hr {
   height: 5px;
   margin: 0 auto;
   border-radius: 250px;
+  justify-content: $de-align;
+  align-self: $de-align;
+  text-align: $de-align;
+  align-items: $de-align;
+  align-content: $de-align;
   background-color: $sub-default;
   border: 3px solid $sub-default;
 }

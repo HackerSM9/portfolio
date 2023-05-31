@@ -51,8 +51,14 @@ hr {
   border-radius: 250px;
   background-color: #cb80ff;
   border: 3px solid #cb80ff;
+  opacity: 0.5;
+  transition: opacity 0.1s ease-in-out;
   animation: glowMinor 2s ease-in-out;
   -webkit-animation: glowMinor 2s ease-in-out infinite;
+}
+
+hr:hover {
+  opacity: 1;
 }
 
 @keyframes glow {

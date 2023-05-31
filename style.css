@@ -49,15 +49,35 @@ hr {
   height: 6.6px;
   margin: 0 auto;
   border-radius: 250px;
-  justify-content: center;
-  align-self: center;
-  text-align: center;
-  align-items: center;
-  align-content: center;
+  position: absolute;
   background-color: #cb80ff;
   border: 3px solid #cb80ff;
+  animation: glowMinor 2s ease-in-out;
+  -webkit-animation: glowMinor 2s ease-in-out infinite;
 }
 
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 2px #cb80ff;
+  }
+  50% {
+    box-shadow: 0 0 8px #cb80ff;
+  }
+  100% {
+    box-shadow: 0 0 2px #cb80ff;
+  }
+}
+@keyframes glowMinor {
+  0% {
+    box-shadow: 0 0 2px black;
+  }
+  50% {
+    box-shadow: 0 0 8px black;
+  }
+  100% {
+    box-shadow: 0 0 2px black;
+  }
+}
 .self_img {
   text-align: center;
   align-items: center;

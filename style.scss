@@ -59,13 +59,35 @@ hr {
   height: 6.6px;
   margin: 0 auto;
   border-radius: 250px;
-  justify-content: $de-align;
-  align-self: $de-align;
-  text-align: $de-align;
-  align-items: $de-align;
-  align-content: $de-align;
+  position: absolute;
   background-color: $sub-default;
   border: 3px solid $sub-default;
+  animation: glowMinor 2s ease-in-out;
+  -webkit-animation: glowMinor 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0%{box-shadow: 0 0 2px $sub-default;}
+  50%{box-shadow: 0 0 8px $sub-default;}
+  100%{box-shadow: 0 0 2px $sub-default;}
+}
+
+@-webkit-keyframes glow {
+  0%{box-shadow: 0 0 2px $sub-default;}
+  50%{box-shadow: 0 0 8px $sub-default;}
+  100%{box-shadow: 0 0 2px $sub-default;}
+}
+
+@keyframes glowMinor {
+  0%{box-shadow: 0 0 2px black;}
+  50%{box-shadow: 0 0 8px black;}
+  100%{box-shadow: 0 0 2px black;}
+}
+
+@-webkit-keyframes glowMinor {
+  0%{box-shadow: 0 0 2px black;}
+  50%{box-shadow: 0 0 8px black;}
+  100%{box-shadow: 0 0 2px black;}
 }
 
 .self_img {

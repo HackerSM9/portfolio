@@ -47,29 +47,34 @@ h1 {
 hr {
   width: 35%;
   height: 6.6px;
-  margin: 0 auto;
-  border-radius: 250px;
-  background-color: #cb80ff;
-  border: 3px solid #cb80ff;
-  opacity: 0.5;
-  transition: opacity 0.1s ease-in-out;
-  animation: glowMinor 2s ease-in-out;
-  -webkit-animation: glowMinor 2s ease-in-out infinite;
+  border: 1px solid #7632aa;
+  border-radius: 500px;
+  box-shadow: 0 0 5px #7632aa;
+  padding: 0;
+  animation: glow 1.5s ease-in-out infinite;
+  -webkit-animation: glow 1.5s ease-in-out infinite;
 }
 
-hr:hover {
-  opacity: 1;
+hr::before {
+  position: absolute;
+  border: 1px solid #222;
+  width: 35%;
+  height: 6.6px;
+  border-radius: 500px;
+  box-shadow: 0 0 3px black;
+  animation: glowMinor 0.5s ease-in-out;
+  -webkit-animation: glowMinor 3s ease-in-out infinite;
 }
 
 @keyframes glow {
   0% {
-    box-shadow: 0 0 2px #cb80ff;
+    box-shadow: 2 0 2px #dca3ff;
   }
   50% {
-    box-shadow: 0 0 8px #cb80ff;
+    box-shadow: 0 0 9px #efd1ff;
   }
   100% {
-    box-shadow: 0 0 2px #cb80ff;
+    box-shadow: 0 2 2px #dca3ff;
   }
 }
 @keyframes glowMinor {

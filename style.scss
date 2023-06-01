@@ -62,7 +62,7 @@ hr {
   border-radius: 500px;
   box-shadow: 0 0 5px #7632aa;
   padding: 0;
-  opacity: 0.7;
+  opacity: 0.8;
   transition: glow 0.1s ease-in-out;
   animation: glow 1.5s ease-in-out infinite;
   -webkit-animation: glow 1.5s ease-in-out infinite;
@@ -73,6 +73,8 @@ hr::before {
   border: 1px solid #222;
   width: 35%;
   height: 6.6px;
+  opacity: 0.8;
+  transition: glow 0.1s ease-in-out;
   background-color: #7632aa;
   border-radius: 500px;
   box-shadow: 0 0 3px black;

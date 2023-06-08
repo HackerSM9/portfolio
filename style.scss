@@ -1,4 +1,5 @@
-@import "https://hackersm9.github.io/Fonts/fonts.css";
+@import url("https://hackersm9.github.io/Fonts/fonts.css");
+@import url("https://hackersm9.github.io/free-icons/css/latest-icon.css");
 
 $bg-color: #020102;
 $default: #6913afe8;
@@ -48,6 +49,8 @@ html,body {
   transform: scaleX(1);
 }
 
+
+
 h1 {
  font-family: Sofia;
  color: $sub-default;
@@ -55,7 +58,6 @@ h1 {
 }
 
 hr {
-  position: absolute;
   width: 35%;
   height: 6.6px;
   background-color: #7632aa;
@@ -69,7 +71,6 @@ hr {
 }
 
 hr::before {
-  position: absolute;
   border: 1px solid #222;
   width: 35%;
   height: 6.6px;

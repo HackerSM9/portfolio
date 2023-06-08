@@ -8,14 +8,11 @@ $color: #E3BAFF;
 $de-align: center;
 
 html,body {
-  margin: 0px;
   color: $color; 
   background-color: $bg-color;
 }
 
 *,.navbar,.container-fluid {
-    margin:0px;
-    padding:0px;
     box-sizing: border-box;
     background-color: $bg-color;
     color: $color;
@@ -60,6 +57,7 @@ h1 {
 hr {
   width: 35%;
   height: 6.6px;
+  display: block;
   background-color: #7632aa;
   border: 1px solid #7632aa;
   border-radius: 500px;
@@ -75,6 +73,7 @@ hr::before {
   width: 35%;
   height: 6.6px;
   opacity: 0.8;
+  display: block;
   background-color: #7632aa;
   border-radius: 500px;
   box-shadow: 0 0 3px black;

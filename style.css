@@ -49,21 +49,21 @@ section {
 }
 
 section:nth-child(1) {
-  color: #e0ffff;
+  color: #E3BAFF;
 }
 
 section:nth-child(2) {
-  color: #42455a;
-  background: #e0ffff;
+  color: #E3BAFF;
+  background: #020102;
 }
 
 section:nth-child(3) {
-  color: #e0ffff;
+  color: #E3BAFF;
 }
 
 section:nth-child(4) {
-  color: #42455a;
-  background: #e0ffff;
+  color: #E3BAFF;
+  background: #020102;
 }
 
 @media (max-width: 900px) {

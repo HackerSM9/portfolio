@@ -137,7 +137,7 @@ h1 {
  text-align: $de-align;
 }
 
-hr {
+hr:active {
   width: 35%;
   height: 6.6px;
   display: block;
@@ -146,7 +146,7 @@ hr {
   border-radius: 500px;
   box-shadow: 0 0 5px #7632aa;
   padding: 0;
-  opacity: 1;
+  opacity: 0.9;
   animation: glow 1.5s ease-in-out infinite;
   -webkit-animation: glow 1.5s ease-in-out infinite;
 }

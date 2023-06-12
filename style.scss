@@ -241,6 +241,10 @@ $porcent-node: 30;
   }
 }
 
+label {
+  font-size: 1.5em;
+}
+
 .input {
  color: #8707ff;
  border: 2px solid #8707ff;
@@ -255,8 +259,11 @@ $porcent-node: 30;
 }
 
 textarea {
+  color: #8707ff;
+  border: 2px solid #8707ff;
   padding: 10px;
   border-radius: 30px;
+  background: transparent;
 }
 
 .button {

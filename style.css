@@ -11,6 +11,12 @@ html, body {
   background-color: #020102;
 }
 
+.fa-arrow-up {
+  color: #fff;
+  background: transparent;
+  background-color: rgba(105, 19, 175, 0.9098039216);
+}
+
 #myBtn {
   display: none;
   position: fixed;
@@ -28,7 +34,7 @@ html, body {
 }
 
 #myBtn:hover {
-  background-color: #555;
+  filter: sharpness(500px);
 }
 
 *, .navbar, .container-fluid {

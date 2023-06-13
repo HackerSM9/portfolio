@@ -18,6 +18,12 @@ html,body {
   background-color: $bg-color;
 }
 
+.fa-arrow-up {
+  color: #fff;
+  background: transparent;
+  background-color: $default;
+}
+
 #myBtn {
   display: none;
   position: fixed;
@@ -35,7 +41,7 @@ html,body {
 }
 
 #myBtn:hover {
-  background-color: #555;
+  filter: sharpness(500px);
 }
 
 *,.navbar,.container-fluid {

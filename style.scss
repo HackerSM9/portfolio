@@ -345,3 +345,8 @@ textarea {
 .button:active {
   background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
 }
+
+.social {
+  text-align: $de-align;
+  display: flex;
+}

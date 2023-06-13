@@ -3,9 +3,9 @@
 
 $bg-color: #020102;
 $default: #6913afe8;
-$min-default: #8707ff;
-$sub-default: #ae3dff;
-$color: #c473fa;
+$min-default: #8707f1;
+$sub-default: #cb80ff;
+$color: #E3BAFF;
 $de-align: center;
 
 * {
@@ -39,10 +39,6 @@ html,body {
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
-}
-
-#myBtn:hover {
-  filter: sharpness(500px);
 }
 
 *,.navbar,.container-fluid {

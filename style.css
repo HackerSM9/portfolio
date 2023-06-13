@@ -7,7 +7,7 @@
 
 html, body {
   box-sizing: border-box;
-  color: #E3BAFF;
+  color: #c473fa;
   background-color: #020102;
 }
 
@@ -40,7 +40,7 @@ html, body {
 *, .navbar, .container-fluid {
   box-sizing: border-box;
   background-color: #020102;
-  color: #E3BAFF;
+  color: #c473fa;
 }
 
 .brand {
@@ -66,6 +66,11 @@ html, body {
 .nav-link:hover::before {
   transform-origin: left;
   transform: scaleX(1);
+}
+
+section {
+  padding-top: 5px;
+  padding-bottom: 20px;
 }
 
 h1 {
@@ -126,7 +131,7 @@ hr:hover {
 }
 
 .bio {
-  color: #E3BAFF;
+  color: #c473fa;
   text-align: center;
 }
 
@@ -307,5 +312,13 @@ textarea {
 
 .social {
   text-align: center;
-  display: flex;
+}
+
+.icons {
+  font-size: 3em;
+  display: flex-box;
+}
+
+.fa-brands:hover {
+  color: #8707ff;
 }/*# sourceMappingURL=style.css.map */

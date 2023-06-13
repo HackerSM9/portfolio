@@ -3,8 +3,9 @@
 
 $bg-color: #020102;
 $default: #6913afe8;
+$min-default: #8707ff;
 $sub-default: #ae3dff;
-$color: #E3BAFF;
+$color: #c473fa;
 $de-align: center;
 
 * {
@@ -76,6 +77,11 @@ html,body {
 .nav-link:hover::before {
   transform-origin: left;
   transform: scaleX(1);
+}
+
+section {
+  padding-top: 5px;
+  padding-bottom: 20px;
 }
 
 h1 {
@@ -348,5 +354,13 @@ textarea {
 
 .social {
   text-align: $de-align;
-  display: flex;
+}
+
+.icons {
+  font-size: 3em;
+  display: flex-box;
+}
+
+.fa-brands:hover {
+  color: $min-default;
 }

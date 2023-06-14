@@ -1,31 +1,31 @@
 window.onload = function(){
 
 
-    var pageTitle = document.title;
-    var attentionMessage = "Come Back!";
-    var blinkEvent = null;
+  var pageTitle = document.title;
+  var attentionMessage = "Come Back!";
+  var blinkEvent = null;
 
 
-    document.addEventListener('visibilitychange',function(e)
+  document.addEventListener('visibilitychange',function(e)
 {  var isPageActive = !document.hidden;
 
-    if(!isPageActive){
-        blink();
-    }else {
-        document.title = pageTitle;
-        clearInterval(blinkEvent);
-    }
+  if(!isPageActive){
+      blink();
+  }else {
+      document.title = pageTitle;
+      clearInterval(blinkEvent);
+  }
 });
 
 function blink(){
-    blinkEvent = setInterval(function(){
-    if(document.title === attentionMessage){
-        document.title = pageTitle;
-    }else {
-        document.title = attentionMessage;
-    }
-    },10);
-    }
+  blinkEvent = setInterval(function(){
+  if(document.title === attentionMessage){
+      document.title = pageTitle;
+  }else {
+      document.title = attentionMessage;
+  }
+  },10);
+  }
 }
 
 let mybutton = document.getElementById("myBtn");
@@ -34,15 +34,15 @@ let mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  mybutton.style.display = "block";
+} else {
+  mybutton.style.display = "none";
+}
 }
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+document.body.scrollTop = 1;
+document.documentElement.scrollTop = 1;
 }
